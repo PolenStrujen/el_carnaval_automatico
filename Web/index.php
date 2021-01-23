@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<meta charset="UTF-8">
-		<title>Boiro</title>
-		<link rel="shortcut icon" href="img/LogoEmpresa.png">
-		<link rel="stylesheet" href="estilo.css">
-	</head>
-
+<?php 
+	include_once("headers.php");
+?>
 	<body>
 		<div class="header">
 			<div class="titulo">
@@ -21,27 +15,28 @@
 					<li><a href="boiroANG.html"><span style="color: white;">English</a></li>
 				</ul>	
 				<ul class="nav">
-					<li><a href="#Inici">Start</a></li>
-					<li><a href="#Sobre nosaltres">About us</a></li>
-					<li><a href="#Serveis">Services</a></li>
-					<li><a href="#Contacte">Contact</a></li>
-					<li><a href="login.php">Login</a></li>
+					<li><a href="#Inici">Inici</a></li>
+					<li><a href="#Sobre nosaltres">Sobre nosaltres</a></li>
+					<li><a href="#Serveis">Serveis</a></li>
+					<li><a href="#Contacte">Contacte</a></li>
+					<li><a href="login.php">Accedir</a></li>
 				</ul>
 				<div class="clear"></div>
 			</div>
 		</div>
 
 		<div class="apartat1">
-			<h2 id="Inici">MANAGE YOUR COMPANY WITH US</h2>
-			<p>Company specialized in the administration of computer services</p>
+			<h2 id="Inici">ADMINISTRA LA TEVA EMPRESA AMB NOSALTRES</h2>
+			<p>Empresa especialitzada en l'administració de serveis informàtics</p>
 		</div>
 
 		<div class="centrar">
 			<div class="apartat2">
-				<h2 id="Sobre nosaltres">ABOUT US</h2>
+				<h2 id="Sobre nosaltres">SOBRE NOSALTRES</h2>
 				<div class="paragrafo">
-					<p>We are two microcomputers that have recently finished their studies, and we have ventured to create a company dedicated to offering computer services to our clients.
-					We are willing to offer the best services with the highest possible quality.</p>
+					<p>Sóm dos tècnics microinformàtics que hem acabat els estudis recentment, i ens hem aventurat a crear una
+					empresa dedicada a oferir serveis informàtics als nostres clients.
+					Estem disposats a oferir els millors serveis amb la màxima qualitat possible. </p>
 					<img src="img/foto2.jpg">
 					<div class="clear"></div>
 				</div>
@@ -49,30 +44,30 @@
 		</div>
 
 		<div class="apartat3">
-			<h2 id="Serveis">SERVICES</h2>
-			<p>- Creation and edition of web pages using HTML and CSS language, or through Wordpress</p>
-			<p>- Web Maintenance</p>
-			<p>- Server Management</p>
-			<p>- Administration of learning portals, especially Moodle</p>
-			<p>- Assembly, maintenance and repair of computer equipment</p>
-			<p>- Implementation of the network in work environments</p>
+			<h2 id="Serveis">SERVEIS</h2>
+			<p>- Creació i edició de pàgines web utilitzant llenguatge HTML i CSS, o bé mitjançant Wordpress</p>
+			<p>- Manteniment web</p>
+			<p>- Administració de servidors</p>
+			<p>- Administració de portals d'aprenentatge, especialment Moodle</p>
+			<p>- Muntatge, manteniment i reparació d'equips informàtics</p>
+			<p>- Implantació de la xarxa en entorns de treball</p>
 		</div>
 
 		<div class="centrar">
 			<div class="apartat4">
-				<h2 id="Contacte">CONTACT</h2>
+				<h2 id="Contacte">CONTACTE</h2>
 				<form>
-					<label>Name and surname</label><br>
+					<label>Nom i cognoms</label><br>
 					<input type="nom" id="name" name="name"><br>
-					<label>Phone number</label><br>
+					<label>Número de telèfon</label><br>
 					<input type="telefon" name="telefon"><br>
-					<label>Email</label><br>
+					<label>Correu electrònic</label><br>
 					<input type="correu" name="correu"><br>
-					<label>Company</label><br>
+					<label>Empresa</label><br>
 					<input type="empresa" name="empresa"><br>
-					<label>Service description</label><br>
+					<label>Descripció del servei</label><br>
 					<textarea name="servei" rows="5"></textarea><br>
-					<input type="submit" value="Send">
+					<input type="submit" value="Enviar">
 				</form>
 					<img src="img/foto4.jpg">
 					<div class="clear"></div>
@@ -86,7 +81,7 @@
 				<div class="f_1">
 					<div>
 						<img src="img/logotelefono.png">
-						<p>Phone number: 937 262 356</p>
+						<p>Número de telèfon: 937 262 356</p>
 
 					</div>
 					<div>					
@@ -101,7 +96,7 @@
 					</div>
 					<div>
 						<img src="img/logodireccion.png">
-						<p>Address: C/Salvany nº 126</p>
+						<p>Adreça: C/Salvany nº 126</p>
 					</div>
 				</div>
 				<!-- pié derecho -->
@@ -110,7 +105,7 @@
 				</div>
 			</div>
 			<div class="footer2">
-				<p>Site performed by BoiRo&copy;</p>
+					<p>Pàgina realitzada per Boiro&copy;</p>
 			</div>
 		</div>
 	</body>

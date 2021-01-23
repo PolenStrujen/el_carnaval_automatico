@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Boiro</title>
+		<link rel="shortcut icon" href="img/LogoEmpresa.png">
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="titulo">
+				<img src="img/LogoEmpresa.png">
+			</div>
+		</div>
+		<div class="menu">
+			<div class="menu_container">
+				<ul class="idiomas">
+					<li><a href="index.php"><span style="color: white;">Català</a></li>
+					<li><a href="boiroES.html"><span style="color: white;">Castellano</a></li>
+					<li><a href="boiroANG.html"><span style="color: white;">English</a></li>
+				</ul>	
+				<ul class="nav">
+					<li><a href="index.php">Inici</a></li>
+					<li><a href="index.php">Sobre nosaltres</a></li>
+					<li><a href="index.php">Serveis</a></li>
+					<li><a href="index.php">Contacte</a></li>
+					<li><a href="login.php">Accedir</a></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		<div class="menu_container"> 
+		<form method="POST" action="registre.php">
+			<p> Registrar-se </p>
+			<div>
+				<label>Username</label>
+				<input type="text" name="username" pattern="[a-zA-Z0-9]+" required />
+			</div>
+			<div>
+				<label>Password</label>
+				<input type="password" name="password" pattern="[a-zA-Z0-9]+" required />
+			</div>
+			<button type="submit" name="regist" value="regist"> Registrar </button>
+		</form>
+		<br>
+		<button> <a href="login.php"> <span style="color: black;"> Log in </span> </a> </button>
+		
+		</div>
+	</body>
+</html>
